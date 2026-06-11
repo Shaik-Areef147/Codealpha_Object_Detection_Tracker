@@ -43,13 +43,17 @@ This project is a real-time Object Detection and Tracking web application built 
 
 • Traffic Monitoring
 
-## 🌐 Open Application
-
-
-https://codealpha-object-detection-tracker.onrender.com
-
 • Security Systems
 
 • Retail Analytics
 
 • Autonomous Systems
+
+
+
+
+## 🌐 Open Application
+
+
+https://codealpha-object-detection-tracker.onrender.com
+
