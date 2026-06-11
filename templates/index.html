@@ -1,24 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>AI Object Detection & Tracking</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Object Detection System</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
 
 <div class="container">
 
-<h1>🚀 AI Object Detection & Tracking</h1>
+    <h1>🚀 AI Object Detection System</h1>
 
-<p>Upload Video and Detect Objects with Tracking IDs</p>
+    <p class="subtitle">
+        Upload an Image or Video and Detect Objects using YOLOv8
+    </p>
 
-<form action="/predict" method="post" enctype="multipart/form-data">
+    <form action="/predict" method="POST" enctype="multipart/form-data">
 
-<input type="file" name="video" required>
+        <input
+            type="file"
+            name="file"
+            accept=".jpg,.jpeg,.png,.mp4,.avi,.mov"
+            required
+        >
 
-<button type="submit">Detect Objects</button>
+        <br><br>
 
-</form>
+        <button type="submit">
+            Detect Objects
+        </button>
+
+    </form>
+
+    <div class="info">
+
+        <h3>📌 Supported Formats</h3>
+
+        <p>🖼 Images: JPG, JPEG, PNG</p>
+
+        <p>🎥 Videos: MP4, AVI, MOV</p>
+
+        <p>⚡ For best performance on Render, use short videos (5–10 seconds).</p>
+
+    </div>
 
 </div>
 
