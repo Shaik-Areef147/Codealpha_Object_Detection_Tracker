@@ -12,6 +12,7 @@ This project is a real-time Object Detection and Tracking web application built 
 • Render Deployment Ready
 
 🛠 Technologies Used
+
 • Python
 • Flask
 • OpenCV
