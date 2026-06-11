@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Object Detection & Tracking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🚀 AI Object Detection & Tracking</h1>
+
+<p>Upload Video and Detect Objects with Tracking IDs</p>
+
+<form action="/predict" method="post" enctype="multipart/form-data">
+
+<input type="file" name="video" required>
+
+<button type="submit">Detect Objects</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
